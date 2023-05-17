@@ -19,6 +19,11 @@ Tech News App which displays list of tech news articles from around the world in
     - networking : contains Interceptor & Api Service
     - ui : contains Activity, Fragment, Addapter, ViewHolder, ViewModel, etc.
 
+<img src=https://github.com/hsinha610/news-app-hilt-mvvm/blob/master/Screenshot_20230518_012611_Tech%20News.jpg width="200" height="400"/>
+<img src=https://github.com/hsinha610/news-app-hilt-mvvm/blob/master/Screenshot_20230518_012629_Chrome.jpg width="200" height="400"/>
+
+
+
 ## Libraries used
 
     1. Networking 
