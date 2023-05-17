@@ -57,6 +57,9 @@ Tech News App which displays list of tech news articles from around the world in
 
 <a href="https://www.section.io/engineering-education/hilt-android-tutorial/">Using Hilt Dependecy Injection Framework in Android</a>
 
+<a href="https://rommansabbir.com/dependency-injection-android-part-3#heading-how-to-inject-interface-or-abstract-class
+">How To Inject Interfaces using Hilt</a>
+
 <a href="https://github.com/codepath/android_guides/wiki/Storing-Secret-Keys-in-Android">Storing Secret Keys in Android</a>
 
 
