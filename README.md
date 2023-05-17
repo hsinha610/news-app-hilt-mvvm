@@ -6,7 +6,7 @@ Tech News App which displays list of tech news articles from around the world in
 - **Using this repo** :
     - Clone this repo to Android Studio.
     - Go to https://newsapi.org/ to get API key.
-    - make `apikey.properties` file in root project. In the file, add `API_KEY="xx"`. Replace xx with your API Key.
+    - make `apikey.properties` file in root project. In the file, add API_KEY="xx". Replace xx with your API Key.
     - Run App.
 
 (Never upload API Keys to Public Repos. Refer this article - <a href="https://github.com/codepath/android_guides/wiki/Storing-Secret-Keys-in-Android">Storing Secret Keys in Android</a>)
@@ -32,6 +32,9 @@ Tech News App which displays list of tech news articles from around the world in
 ## Articles for reference
 
 <a href="https://www.section.io/engineering-education/image-processing-with-coil-in-android/">Image Processing with Coil in Android</a>
+
+<a href="https://www.digitalocean.com/community/tutorials/retrofit-android-example-tutorial">Retrofit Android Example Tutorial</a>
+
 
 <a href="https://amitshekhar.me/blog/okhttp-interceptor">OkHttp Interceptor</a>
 
