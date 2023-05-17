@@ -1,9 +1,11 @@
 package com.example.newsapp.ui
 
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.browser.customtabs.CustomTabsIntent
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -74,6 +76,15 @@ class NewsListFragment : Fragment() {
                 }
             }
         }
+
+        viewModel.newsClickedLD.observe(viewLifecycleOwner) {
+
+            it?.let {
+                context?.let { it1 ->
+                    CustomTabsIntent.Builder().build().launchUrl(it1, Uri.parse(it.url))
+                }
+            }
+        }
     }
 
     private fun showLoader() {
@@ -97,6 +108,9 @@ class NewsListFragment : Fragment() {
     }
 
     companion object {
+
+        const val TAG = "NewsListFragment"
+
         @JvmStatic
         fun newInstance() =
             NewsListFragment().apply {
