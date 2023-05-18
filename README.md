@@ -6,7 +6,7 @@ Tech News App which displays list of tech news articles from around the world in
 - **Using this repo** :
     - Clone this repo to Android Studio.
     - Go to https://newsapi.org/ to get API key.
-    - make `apikey.properties` file in root project. In the file, add `API_KEY="xx"`. Replace xx with your API Key.
+    - Open `apikey.properties` file. In the file, add `API_KEY="xx"` & replace `xx` with your API Key.
     - Run App.
 
 (Never upload API Keys to Public Repos. Refer this article - <a href="https://github.com/codepath/android_guides/wiki/Storing-Secret-Keys-in-Android">Storing Secret Keys in Android</a>)
@@ -18,6 +18,11 @@ Tech News App which displays list of tech news articles from around the world in
     - di : contains dependency injection related Module
     - networking : contains Interceptor & Api Service
     - ui : contains Activity, Fragment, Addapter, ViewHolder, ViewModel, etc.
+
+<img src=https://github.com/hsinha610/news-app-hilt-mvvm/blob/master/Screenshot_20230518_012611_Tech%20News.jpg width="200" height="400"/>
+<img src=https://github.com/hsinha610/news-app-hilt-mvvm/blob/master/Screenshot_20230518_012629_Chrome.jpg width="200" height="400"/>
+
+
 
 ## Libraries used
 
@@ -51,6 +56,9 @@ Tech News App which displays list of tech news articles from around the world in
 <a href="https://proandroiddev.com/kotlin-coroutines-in-andriod-ff0b3b399fa0">Kotlin Coroutines in Android</a>
 
 <a href="https://www.section.io/engineering-education/hilt-android-tutorial/">Using Hilt Dependecy Injection Framework in Android</a>
+
+<a href="https://rommansabbir.com/dependency-injection-android-part-3#heading-how-to-inject-interface-or-abstract-class
+">How To Inject Interfaces using Hilt</a>
 
 <a href="https://github.com/codepath/android_guides/wiki/Storing-Secret-Keys-in-Android">Storing Secret Keys in Android</a>
 
