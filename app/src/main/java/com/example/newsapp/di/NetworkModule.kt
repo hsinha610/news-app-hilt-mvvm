@@ -1,8 +1,6 @@
 package com.example.newsapp.di
 
 import com.example.newsapp.networking.AuthInterceptor
-import com.example.newsapp.networking.NewsApiHelper
-import com.example.newsapp.networking.NewsApiHelperImpl
 import com.example.newsapp.networking.NewsApiService
 import dagger.Module
 import dagger.Provides
@@ -36,7 +34,4 @@ object NetworkModule {
     fun providesApiService(retrofit: Retrofit): NewsApiService =
         retrofit.create(NewsApiService::class.java)
 
-    @Singleton
-    @Provides
-    fun provideApiHelper(apiHelper: NewsApiHelperImpl) : NewsApiHelper = apiHelper
 }
