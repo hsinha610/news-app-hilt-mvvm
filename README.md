@@ -13,7 +13,7 @@ Tech News App which displays list of tech news articles from around the world in
 
 ## Project overview
 - Project follows **MVVM Architecture**.
-- App code is divided into 4 Libraries.
+- App code is divided into 4 parts.
     - data : contains Repository & Data class
     - di : contains dependency injection related Module
     - networking : contains Interceptor & Api Service
